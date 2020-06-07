@@ -59,7 +59,7 @@ const renderPage = (htmlContent, callback) => {
                 bottom: "20px"
             }
         });
-        await page.screenshot({path: `${resultsPath}.png`});
+        await page.screenshot({path: `${resultsPath}.png`, fullPage: true});
         await browser.close();
         callback({
             pdfFile
