@@ -5,7 +5,7 @@
     "cloudscraper": "https://github.com/bestplay9384/cloudscraper.git",
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
-    "moment": "^2.26.0",
+    "moment": "^2.29.4",
     "path": "^0.12.7",
     "puppeteer": "^3.3.0",
     "request": "^2.88.2",
